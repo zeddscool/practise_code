@@ -1,0 +1,6 @@
+for i in range(0, 20):
+    for j in range(0, 34):
+        for k in range(0, 300):
+
+            if 5 * i + 3 * j + k / 3 == 100 and i + j + k == 100:
+                print("公鸡%.f只，母鸡%.f只，鸡仔%.f只" % (i, j, k))
